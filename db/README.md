@@ -1,8 +1,7 @@
 # DB
 
-Para cada uno de los ejercicios siguientes, obtener el esquema lógico relacional correspondiente a la
-especificación de requisitos
-
+Para cada uno de los ejercicios siguientes, obtener las queries para crear la base de datos siguiendo la especificación de requisitos.
+Añade queries en el archivo correspondiente.
 
 ### EJERCICIO 1
 
@@ -22,29 +21,4 @@ nombre vulgar y nombre científico, familia a la que pertenece y si se encuentra
 Además, se debe guardar información sobre cada animal que los zoos poseen, como su número de
 identificación, especie, sexo, año de nacimiento, país de origen y continente.
 
-### EJERCICIO 3
-
-Se quiere diseñar una base de datos relacional para gestionar los datos de los socios de un club náutico.
-De cada socio se guardan los datos personales y los datos del barco o barcos que posee: número de
-matrícula, nombre, número del amarre y cuota que paga por el mismo. Además, se quiere mantener
-información sobre las salidas realizadas por cada barco, como la fecha y hora de salida, el destino y los datos
-personales del patrón, que no tiene porque ser el propietario del barco, ni es necesario que sea socio del
-club.
-
-## Contesta las siguientes preguntas
-
-### Escriba un query que regrese todos los departamentos en la table (sin duplicados).
-
-````sql
-SALARIES (
-Professor_Name (TEXT),
-Department (TEXT),
-Salary (INT)
-)
-````
-
-### Escriba una query que regrese el nombre y salario de el profesor con el salario mas alto.
-
-### Escriba un query que regrese todos los nombres de profesores que inicien con la letra "C".
-
-### Escriba una query que regrese el departamento con el salario promedio más alto junto con ese salario promedio.
+## Contesta las preguntas del archivo queries.sql

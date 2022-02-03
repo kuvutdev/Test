@@ -1,6 +1,6 @@
 # HTML CSS
 
-Maqueta una pagina responsive que cumpla con las siguientes imagenes:
+Maqueta una página responsive que cumpla con las siguientes imagenes:
 No puedes usar ningun framework css.
 
 ## WEB

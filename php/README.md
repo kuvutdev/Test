@@ -5,9 +5,9 @@ Se valorará el uso de symfony pero se puede usar el framework que quieras o nin
 
 ## RESPONSES STATUS
 
-200-level (Success) – server completed the request as expected
-400-level (Client error) – client sent an invalid request
-500-level (Server error) – server failed to fulfill a valid request due to an error with server
+- 200-level (Success) – server completed the request as expected
+- 400-level (Client error) – client sent an invalid request
+- 500-level (Server error) – server failed to fulfill a valid request due to an error with server
 
 ## ENDPOINTS
 
@@ -16,9 +16,16 @@ Se valorará el uso de symfony pero se puede usar el framework que quieras o nin
 POST /php/numbers
 
 params:
-- numbers: array<numbers> (required)
+- numbers: array<float,> (required)
 - type: string (optional) (accepted EVEN or ODD) EVEN BY DEFAULT
 - order: string (optional) (accepted ASC or DESC) ASC BY DEFAULT
+
+Esepcificación de funcionamiento de cada caso:
+TABLA DE CODIGOS DE ERRORES
+010000
+
+success: true
+result: nmbers
 
 request sample
 ```bash
@@ -46,6 +53,7 @@ response error sample
 ```bash  
 {
     "status": 400,
+    "code": "ERR01",
     "message": "Hay elementos que no son numericos"
 }
 ```

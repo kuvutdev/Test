@@ -1,6 +1,6 @@
 # DOCKER
 
-Crea un docker-compose con php y mysql o mariadb para ejecutar el codigo que hay en la carpeta www
+Crea un docker-compose con php y mysql o mariadb para ejecutar el codigo que hay en la carpeta www.
 Puedes usar los datos del config.php o cambiarlos.
 
 Una vez ejecutado el docker comprueba que funciona el archivo info.php
