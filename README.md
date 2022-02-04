@@ -45,4 +45,6 @@ Crear una api para cumplir con todos los endpoints requeridos.
 
 [PHP test](php)
 
+## AYUDA
 
+Si tienes cualquier duda sobre algún punto puedes escribir a developer@kuvut.com
