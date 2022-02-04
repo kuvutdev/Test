@@ -42,7 +42,7 @@ Esepcificación de funcionamiento de cada caso:
 
 request sample
 ```bash
-curl --request POST 'https://api.test.kuvut.com/php/numbers' \
+curl --request POST 'https://localhost/php/numbers' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "numbers": [12,43,5,678,0,-13,-100],
@@ -105,7 +105,7 @@ params:
 
 sample request
 ```bash
-curl --location --request POST 'https://api.test.kuvut.com/php/strings' \
+curl --location --request POST 'https://localhost/php/strings' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "strings": ["a","bbb","dasdas", "adsds"],
@@ -173,7 +173,7 @@ params:
 
 sample request
 ```bash
-curl --location --request POST 'https://api.test.kuvut.com/php/machine' \
+curl --location --request POST 'https://localhost/php/machine' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "machine_coins": {
