@@ -9,4 +9,3 @@ No puedes usar ningun framework css.
 ## MOBILE
 
 ![Mobile](w390.png)
-![Mobile](w390-2.png)
